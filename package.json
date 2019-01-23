@@ -1,0 +1,65 @@
+{
+  "name": "nsvue2codesharedemo",
+  "version": "1.0.0",
+  "description": "A native application built with NativeScript-Vue",
+  "author": "Tiago Alves <tralves@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "web:start": "webpack-dev-server --mode development --inline --hot --config build/web/webpack.config.js",
+    "web:dev": "webpack --mode development --config build/web/webpack.config.js",
+    "web:build": "webpack --mode production --config build/web/webpack.config.js"
+  },
+  "nativescript": {
+    "id": "org.nativescript.application",
+    "tns-ios": {
+      "version": "4.2.0"
+    },
+    "tns-android": {
+      "version": "4.2.0"
+    }
+  },
+  "dependencies": {
+    "@vue/devtools": "^5.0.0-beta.3",
+    "axios": "^0.18.0",
+    "nativescript-socket.io": "^0.9.0",
+    "nativescript-theme-core": "^1.0.4",
+    "nativescript-toast": "^1.4.6",
+    "nativescript-ui-listview": "3.8.0",
+    "nativescript-vue": "^2.0.0-alpha.3",
+    "nativescript-vue-devtools": "^1.0.0",
+    "rxjs": "^6.3.3",
+    "tns-core-modules": "^4.2.0",
+    "vue": "^2.5.17",
+    "vue-material": "^1.0.0-beta-10.2",
+    "vue-rx": "^6.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "babel-traverse": "6.26.0",
+    "babel-types": "6.26.0",
+    "babylon": "6.18.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.2",
+    "cross-env": "^5.2.0",
+    "css-hot-loader": "^1.4.2",
+    "css-loader": "^1.0.0",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "lazy": "1.0.11",
+    "mini-css-extract-plugin": "^0.4.1",
+    "nativescript-dev-webpack": "^0.17.0-2018-09-12-01",
+    "nativescript-vue-template-compiler": "^2.0.0-alpha.3",
+    "nativescript-worker-loader": "~0.9.0",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.1.0",
+    "uglifyjs-webpack-plugin": "~1.2.7",
+    "vue-loader": "^15.2.6",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.16.4",
+    "webpack-bundle-analyzer": "~2.13.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
