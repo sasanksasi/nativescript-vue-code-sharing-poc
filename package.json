@@ -1,8 +1,8 @@
 {
-  "name": "nsvue2codesharedemo",
+  "name": "nativescript-vue-code-sharing-poc",
   "version": "1.0.0",
   "description": "A native application built with NativeScript-Vue",
-  "author": "Tiago Alves <tralves@gmail.com>",
+  "author": "Sasank M <sasank.hai@gmail.com>",
   "license": "MIT",
   "scripts": {
     "web:start": "webpack-dev-server --mode development --inline --hot --config build/web/webpack.config.js",
